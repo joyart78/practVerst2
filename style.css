@@ -256,10 +256,10 @@ a{
     font-size: 24px;
     font-family: var(--font-semibold);
 }
-.information__cost-black{
+.information__cost-discount{
     color: #3a3845;
 }
-.information__cost-grey{
+.information__cost-default{
     color: #a6a6a8;
 }
 .information__color{
@@ -471,22 +471,8 @@ a{
     background-image: url("./image/Rectangle_5942-3.png");
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .footer{
     background-color: #3a3845;
-    /*margin: 0 auto;*/
 }
 .footer__container{
     max-width: 1200px;
@@ -584,7 +570,7 @@ a{
     color: #cac9cf;
     font-family: 'Gilroy-Medium';
 }
-.menu__option{
+.menu_option{
     display: none;
 }
 @media (max-width: 1200px) {
@@ -602,10 +588,10 @@ a{
     .header__container{
         height: 64px;
     }
-    .header__menu, menu, .header__form{
+    .menu, .header__form{
         display: none;
     }
-    .menu__option{
+    .menu_option{
         display: block;
     }
     .logo{
@@ -724,15 +710,6 @@ a{
     .main__catalog{
         margin-bottom: 40px;
     }
-
-
-
-
-
-
-
-
-
 
     .footer__information{
         display: flex;
